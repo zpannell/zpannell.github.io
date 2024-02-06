@@ -1,0 +1,150 @@
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin: 11px auto;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.header-link {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 15px
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    color: rgba(0,0,0,.87);
+}
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.justify-content-center {
+    margin-right: -60px;
+}
+
+.button-advanced {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 0px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+}
+
+.button-advanced:hover {
+    background-color: #357ae8;
+    border: #2f5bb7;
+}
+
+body {
+    font-family: arial, sans-serif;
+    margin: 25px 25px;
+}
+
+.h1-advanced{
+    color: #d93025;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.p-advanced {
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
+hr {
+    width: 100%;
+}
+
+.advanced-label {
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.advanced-input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    padding-block: 1px;
+    padding-inline: 2px;
+    margin-left: 5px;
+    width: 100%;
+}
+
+.advanced-input:focus {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.container {
+    margin: 16px;
+    padding: 0px;
+}
+
+td {
+    padding-bottom: 10px;
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
