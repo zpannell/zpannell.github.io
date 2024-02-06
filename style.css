@@ -49,12 +49,12 @@
 }
 
 .search {
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid rgb(228, 228, 228);
     border-radius: 100px;
     padding-left: 10px;
     padding-right: 10px;
+    max-width: 400px;
+    width: 100%
 }
 
 .justify-content-center {
@@ -72,7 +72,7 @@
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
-    margin-right: 0px;
+    margin-right: -5px;
     height: 27px;
     line-height: 27px;
     min-width: 54px;
@@ -114,6 +114,7 @@ hr {
     font-size: 13px;
     line-height: 16px;
     white-space: nowrap;
+    width: 20%;
 }
 
 .advanced-input {
@@ -126,7 +127,7 @@ hr {
     padding-block: 1px;
     padding-inline: 2px;
     margin-left: 5px;
-    width: 100%;
+    width: 100%
 }
 
 .advanced-input:focus {
