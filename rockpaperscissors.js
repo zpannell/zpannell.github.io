@@ -31,11 +31,10 @@ scissors.addEventListener('click', function() {
 const options = ['Rock', 'Paper', 'Scissors'];
 
 function getWeapon(choice) {
-    console.log(choice);
     let playerSelection = choice;
     let computerSelection = getComputerChoice(options);
     if (playerScore + computerScore + ties < 5) {
-        roundResultText.innerHTML += "<p>" + playRound(playerSelection, computerSelection) + "</p>";
+        roundResultText.innerHTML = "<p>" + playRound(playerSelection, computerSelection) + "</p>" + roundResultText.innerHTML;
     }
     
     if (playerScore + computerScore + ties === 5) {
